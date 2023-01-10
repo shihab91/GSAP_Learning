@@ -7,7 +7,12 @@ gsap.to(".box2", {
   scrollTrigger: {
     trigger: ".box2",
     scroller: "body",
-    markers: true,
+    markers: {
+      startColor: "blue",
+      endColor: "black",
+      fontSize: "20px",
+    },
+    pin: true,
     start: "top 70%",
     end: "bottom 30%",
     scrub: 3,
