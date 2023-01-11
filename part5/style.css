@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 html,
 body {
@@ -19,7 +22,6 @@ main {
 .center {
   width: 70%;
   height: 80%;
-  background-color: white;
   position: absolute;
   left: 20%;
   top: 50%;
@@ -35,4 +37,18 @@ main {
 .image-container img {
   height: 100%;
   object-fit: cover;
+}
+.text {
+  width: 600px;
+  height: 120px;
+  position: absolute;
+  bottom: 15%;
+  left: -10%;
+  overflow: hidden;
+  z-index: 99;
+}
+.text h1 {
+  font-size: 6vw;
+  position: absolute;
+  top: 100px;
 }
