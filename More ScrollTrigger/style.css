@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div1 h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 100px;
+}
+.div1,
+.div2 {
+  height: 100vh;
+}
+.div1 {
+  background-color: pink;
+  padding:200px
+}
+.div2 {
+  background-color: salmon;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  margin:25px;
+  background-color: fuchsia;  
+}
