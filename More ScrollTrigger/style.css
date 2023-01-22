@@ -1,11 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-.div1 h1{
-  text-align: center;
-  padding-top: 50px;
-  font-size: 100px;
+  box-sizing: border-box;
 }
 .div1,
 .div2 {
@@ -13,14 +9,20 @@
 }
 .div1 {
   background-color: pink;
-  padding:200px
+  padding-top:50px
+}
+.box{
+  background-color: tomato;
+  width: 80px;
+  height: 80px;
+  margin: 25px;
 }
 .div2 {
   background-color: salmon;
 }
 .circle {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin:25px;
   background-color: fuchsia;  
 }
