@@ -5,44 +5,36 @@
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
 }
-.div1,
-.div2 {
-  height: 100vh;
-}
-.div1 {
+body {
   background-color: pink;
-  padding-top: 50px;
-}
-.box {
-  background-color: tomato;
-  width: 80px;
-  height: 80px;
-  margin: 25px;
-}
-.div2 {
-  background-color: salmon;
-}
-.circle {
-  width: 100px;
-  height: 100px;
-  margin: 25px;
-  background-color: fuchsia;
-}
-.buttons {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   gap: 15px;
 }
-.buttons button {
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  padding: 8px 12px;
-  border-radius: 5px;
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
   cursor: pointer;
+  text-align: left;
 }
-.count h1{
- text-align: center;
- font-size: 5rem;
+.text {
+  font-size: 1.5rem;
+  color: #777;
+  font-weight: 700;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
 }
