@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#demo {
+  position: relative;
+  width: 621px;
+  height: 385px;
+  border: 1px solid #333;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/creative-process-bg.png);
+}
+
+#main {
+  position: absolute;
+  width: 250px;
+  top: 110px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 43px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 200;
+  margin: 10px auto;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#images {
+  position: absolute;
+  left: 375px;
+  top: 80px;
+}
+
+.myButton {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #c70067;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.myButton:hover {
+  background-color: #ef027d;
+}
+
+.myButton:active {
+  position: relative;
+}
