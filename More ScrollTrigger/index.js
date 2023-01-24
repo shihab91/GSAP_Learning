@@ -34,3 +34,18 @@ item.addEventListener("mouseleave", () => {
   tl.reverse();
 });
  */
+
+const btn = document.querySelector(".constant-hover-pulse button");
+const animation = gsap.to(btn, {
+  scale: 1,
+  paused: true,
+  repeat: Infinity,
+  yoyo: true,
+});
+btn.addEventListener("mouseenter", () => {
+  animation.restart();
+});
+btn.addEventListener("mouseleave", () => {
+  animation.pause();
+  gsap.to(btn, { scale: 0.6 });
+});
